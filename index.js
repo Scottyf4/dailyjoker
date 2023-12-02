@@ -19,6 +19,14 @@ app.get("/", (req, res) =>{
     res.render("index.ejs")
 });
 
+app.get("/selector", (req, res) =>{
+    res.render("selector.ejs")
+});
+
+app.get("/contact", (req, res) =>{
+    res.render("contact.ejs")
+});
+
 
 app.get("/getjoke", async (req, res) => {
     try {
