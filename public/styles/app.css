@@ -2,6 +2,7 @@ html {
     margin: 0;
 }
 
+
 body {
     font-family: 'Anton', sans-serif;
     font-family: 'Kanit', sans-serif;
@@ -55,7 +56,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 70%;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .title {
@@ -64,7 +65,7 @@ body {
     font-weight:lighter ;
     color: white;
     margin: 0;
-    padding-top: 15px;
+    padding-top: 5px;
     padding-bottom: 15px;
     
     
@@ -78,7 +79,7 @@ body {
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
-    padding-top: 100px;
+    padding-top: 50px;
 
 }
 
@@ -136,4 +137,24 @@ body {
     color: white;
     text-align: center;
     margin: 0;
+}
+.foot-text {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.navbar {
+    color: white;
+    font-size: 2rem;   
+}
+
+@media (min-width: 992px) {
+   #navcontainer{
+    max-width: 100%;
+   } 
 }
