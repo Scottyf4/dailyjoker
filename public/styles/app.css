@@ -1,0 +1,139 @@
+html {
+    margin: 0;
+}
+
+body {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/blackwall.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #CE1D39, 0 0 40px #CE1D39, 0 0 50px #CE1D39, 0 0 60px #CE1D39, 0 0 70px #CE1D39;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #b71034, 0 0 40px #b71034, 0 0 50px #b71034, 0 0 60px #b71034, 0 0 70px #b71034, 0 0 80px #b71034;
+    }
+  }
+
+.container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+   
+}
+
+.respcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.responseform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    padding-top: 100px;
+}
+
+.title {
+    font-family: 'kanit', sans-serif;
+    font-size: 8em;
+    font-weight:lighter ;
+    color: white;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    
+}
+
+.btn {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    padding-top: 100px;
+
+}
+
+.btn-text {
+    
+    font-family: 'Kanit', sans-serif;
+    font-size: 3em;
+    font-weight: Thin;
+    color: rgb(158, 34, 34);
+    
+}
+
+.responsetxt {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2em;
+    font-weight: Thin;
+    color: white;
+    text-align: center;
+    padding: 0;
+}
+
+.cat-text {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5em;
+    font-weight: Thin;
+    color: white;
+    text-align: center;
+    padding: 0;
+}
+
+.imghome {
+    height: 250px;
+    width: 250px;
+    overflow: hidden;    
+    border: 5px solid white;
+    border-radius: 50%;
+    
+
+}
+
+.imgcirc {
+    height: 250px;
+    width: 250px;
+    overflow: hidden;    
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-left: 50px;
+
+}
+
+.warning {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1em;
+    font-weight:500 ;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
