@@ -1,4 +1,4 @@
-import express from "express";
+import express, { response } from "express";
 import axios from "axios";
 import bodyParser from "body-parser";
 
@@ -21,6 +21,12 @@ app.get("/", (req, res) =>{
 
 app.get("/selector", (req, res) =>{
     res.render("selector.ejs")
+});
+
+app.post("/selectedjoke", (req, res) =>{
+    const data = response.data.body
+    console.log(data)
+    res.render("index.ejs")
 });
 
 app.get("/contact", (req, res) =>{
