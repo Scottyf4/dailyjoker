@@ -19,7 +19,93 @@
   </head>
   <body>
     <%- include("partials/header.ejs") %>
-    <h1>What is this?</h1>
+
+    <div class="selector-container contact-block">
+      <h2>Configure Your Own Jokes</h2>
+      <table class="selector-table">
+        <tr>
+          <td><h4>Select Category / Categories</h4></td>
+        </tr>
+        <tr>
+          <td>
+            <label
+              ><input type="checkbox" name="Programming" />Programming</label
+            >
+            <label
+              ><input class="checks" type="checkbox" name="Misc" /> Misc</label
+            >
+            <label
+              ><input class="checks" type="checkbox" name="Dark" />Dark</label
+            >
+            <label
+              ><input class="checks" type="checkbox" name="Pun" />Pun</label
+            >
+            <label
+              ><input
+                class="checks"
+                type="checkbox"
+                name="Spooky"
+              />Spooky</label
+            >
+            <label
+              ><input
+                class="checks"
+                type="checkbox"
+                name="Christmas"
+              />Christmas</label
+            >
+          </td>
+        </tr>
+
+        <tr>
+          <td><h4>Select flags to Blacklist</h4></td>
+        </tr>
+        <tr>
+          <td>
+            <label
+              ><input class="checks" type="checkbox" name="nsfw" />NSFW</label
+            >
+            <label
+              ><input
+                class="checks"
+                type="checkbox"
+                name="Religious"
+              />Religious</label
+            >
+            <label
+              ><input
+                class="checks"
+                type="checkbox"
+                name="Political"
+              />Political</label
+            >
+            <label
+              ><input
+                class="checks"
+                type="checkbox"
+                name="Racist"
+              />Racist</label
+            >
+            <label
+              ><input
+                class="checks"
+                type="checkbox"
+                name="Sexist"
+              />Sexist</label
+            >
+            <label
+              ><input
+                class="checks"
+                type="checkbox"
+                name="Explicit"
+              />Explicit</label
+            >
+          </td>
+        </tr>
+      </table>
+      <button class="select-btn">Submit Joke Request</button>
+    </div>
+
     <%- include("partials/footer.ejs") %>
   </body>
 </html>
